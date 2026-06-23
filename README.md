@@ -8,18 +8,6 @@
 
 This project simulates a **demand-paged virtual memory system** supporting multiple concurrent processes. It benchmarks three page-replacement strategies against a no-swap baseline and produces detailed performance analysis across varied memory sizes.
 
-```
-CV Entry:
-Virtual Memory Simulation | Operating Systems                              [Mar 2025 – Mar 2025]
-• Simulated demand-paged virtual memory to compare performance without swapping
-  and using approximate LRU replacement (Clock and Aging algorithms)
-• Implemented efficient data structures: process descriptors, physical frame pool
-  (O(1) free-list), per-process page tables with history counters for Aging/NFU
-• Analyzed page fault rates, replacement rates, and degree of multiprogramming
-  against varied memory loads (8 – 256 physical frames)
-• Included Bélády's Optimal (OPT) algorithm as a theoretical performance upper bound
-```
-
 ---
 
 ## Architecture
